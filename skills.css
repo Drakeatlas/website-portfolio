@@ -1,11 +1,9 @@
-/* FULL WIDTH SKILLS SECTION */
 #skills {
     position: relative;
     background: url("images/background.jpg") center / cover no-repeat;
     padding: 120px 10%;
 }
 
-/* DARK OVERLAY (same as About) */
 #skills::before {
     content: "";
     position: absolute;
@@ -14,21 +12,18 @@
     z-index: 0;
 }
 
-/* CONTENT CONTAINER */
 .skills-section {
     position: relative;
     z-index: 1;
     max-width: 800px;
 }
 
-/* TITLE */
 .skills-title {
     color: #ffffff;
     font-size: 3rem;
     margin-bottom: 24px;
 }
 
-/* LIST */
 .skills-list {
     list-style: disc;
     padding-left: 20px;
@@ -42,8 +37,10 @@
 #skills {
     background-attachment: fixed;
 }
+
 .skills-list li.skill-highlight {
-    color: #facc15; /* yellow */
+    color: #facc15;
     font-weight: bold;
 }
+
 
