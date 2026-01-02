@@ -1,0 +1,34 @@
+/* CONTACT SECTION */
+#contact {
+    padding: 120px 10%;
+}
+
+/* TITLE */
+.contact-title {
+    font-size: 3rem;
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* INFO */
+.contact-info p {
+    font-size: 1.3rem;
+    margin-bottom: 16px;
+    color: #ffffff;
+}
+
+.contact-info span {
+    color: #facc15;
+    font-weight: bold;
+    margin-right: 8px;
+}
+
+/* LINKS */
+.contact-info a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    color: #facc15;
+}
