@@ -1,17 +1,14 @@
-/* PROJECTS GRID */
 .projects-grid {
     display: flex;
     flex-direction: column;
-    gap: 160px; /* BIG SPACE between projects */
+    gap: 160px;
 }
 
-/* PROJECT CARD */
 .project-card {
     max-width: 800px;
 
 }
 
-/* PROJECT IMAGE */
 .project-image {
     width: 100%;
     max-width: 600px;
@@ -20,14 +17,12 @@
     box-shadow: 0 25px 60px rgba(0, 0, 0, 0.6);
 }
 
-/* TITLE */
 .project-title {
     color: #facc15;
     font-size: 2.3rem;
     margin-bottom: 16px;
 }
 
-/* TEXT */
 .project-card p {
     font-size: 1.1rem;
     line-height: 1.7;
@@ -36,3 +31,4 @@
 #works {
     padding: 120px 10%;
 }
+
